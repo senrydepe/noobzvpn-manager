@@ -1,0 +1,8 @@
+{
+  "tcp_plain": 80,
+  "tcp_ssl": 443,
+  "udp_std": 1194,
+  "udp_ssl": 1194,
+  "dns": "1.1.1.1",
+  "host": "japan.parael.me"
+}

@@ -1,0 +1,12 @@
+[Unit]
+Description=NoobzVPN Manager Bot
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/root/noobzvpn-manager
+ExecStart=python3 /root/noobzvpn-manager/noobzvpn_manager.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
